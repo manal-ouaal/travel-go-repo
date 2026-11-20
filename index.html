@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -8,37 +8,59 @@
     <link rel="stylesheet" href="./public/css/output.css">
 </head>
 
-<body>
-    <header id="manal">
-        <div><img src="./public/images/travelgo.png" alt=""></div>
-        <nav>
+<body class="bg-[#fafafa]">
+    <header id="manal" class="flex items-center justify-between px-[6rem] h-fit py-4">
+        <div>
+            <p class="text-2xl font-bold">
+                Travel<span class="text-[#ff7138]">GO.</span>
+            </p>
+        </div>
+        <nav class="flex gap-10">
             <a href="">Home</a>
             <a href="">Destinaions</a>
             <a href="">About</a>
             <a href="">Contact</a>
         </nav>
-        <button></button>
+        <button class="w-fit rounded-xl bg-[#ff7138] px-[1rem] py-[0.5rem] text-amber-50">
+            <a href=""> Book Now</a>
+        </button>
     </header>
-    <main>
+    <main class="flex flex-col gap-10">
+        <section id="manal"
+            class="bg-[url('/public/images/hero_section.webp')] w-full h-[60vh] bg-no-repeat bg-cover relative">
+            <div class="bg-black h-full w-full opacity-[0.5] absolute"></div>
+            <div class="absolute flex flex-col gap-5 pt-25  px-[6rem] h-full">
+                <p class="text-[#f0a564] text-xs font-medium">DISCOVER THE WORLD</p>
+                <h1 class="text-amber-50  text-4xl font-bold w-[25vw]">
+                    Explore The World With <span class="text-[#ff7138]">TravelGo</span>
+                </h1>
+                <p class="text-amber-50 w-[30vw]">
+                    Discover amazing places, experience new cultures and create
+                    unforgettable memories.
+                </p>
+                <button class="w-fit rounded-lg bg-[#e4561e] px-[1rem] py-[0.5rem] text-amber-50">
+                    Explore Destinations
+                </button>
+            </div>
+        </section>
         <section id="manal"></section>
-        <section id="manal"></section>
-        <section id="akram" class="flex items-center justify-between  px-[6rem]">
+        <section id="akram" class="flex items-center justify-between py-[4rem]  px-[6rem] bg-[#ffffff]">
             <div class="">
-                <img class="w-[40vw] h-[45vh]" src="./public/images/section3-img.png" alt="">
+                <img class="w-[40vw] h-[45vh] rounded-lg" src="./public/images/section3-img.png" alt="">
             </div>
             <div class="flex flex-col gap-3 w-[45vw]">
                 <p class="font-medium text-xs text-[#f0a564]">ABOUT TRAVELGO</p>
                 <p class="font-bold text-3xl ">We Make Your Travel Dreams Come True</p>
-                <p class="font-medium text-xs text-[darkgray]">TravelGo is a travel agency dedicated to helping people discover beautiful destinations around the
+                <p class="font-medium text-xs text-[darkgray]">TravelGo is a travel agency dedicated to helping people
+                    discover beautiful destinations around the
                     world. </P>
-                <p class="font-medium text-xs text-[darkgray]" > Our mission is to make every journey easy, comfortable and unforgettable.</p>
-                    <button class="w-fit bg-[#ff7138] px-4 py-2 rounded-lg text-white">Contact Us</button>
-                
+                <p class="font-medium text-xs text-[darkgray]"> Our mission is to make every journey easy, comfortable
+                    and unforgettable.</p>
+                <button class="w-fit bg-[#ff7138] px-4 py-2 rounded-lg text-white">Contact Us</button>
+
             </div>
         </section>
         <section id="akram"></section>
     </main>
     <footer id="akram"></footer>
 </body>
-
-</html>
